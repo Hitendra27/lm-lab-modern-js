@@ -15,6 +15,6 @@ count(); // <---- uncomment me!
 
 // Another problem with var is that we can overwrite it, like this:
 let greeting = "Hello 😘";
-let greeting = "Not today, pal! 😤";
+greeting = "Not today, pal! 😤";
 
 console.log(greeting) // <----- uncomment me!

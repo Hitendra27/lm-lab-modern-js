@@ -1,10 +1,12 @@
 // Instructions can be found in rest_parameters.md
 
-function add(a, b) {
+export function add(...theArgs) {
   // Add a loop here
-  return a + b;
+  let total = 0;
+  theArgs.forEach(argument => total += argument);
+  return total;
 }
 
-add(1, 2, 3, 4, 5);
+//add(1, 2, 3, 4, 5);
 
-module.exports = add;
+// module.exports = add;
