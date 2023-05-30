@@ -2,9 +2,8 @@
 
 // Problems with var
 
-
-console.log(greeting)
 function count() {
+  let i;
   for (let i = 0; i < 5; i++) {
     console.log(i + " inside the forLoop");
   }
