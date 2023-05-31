@@ -2,12 +2,9 @@
 
 export function longPasswords(passwords) {
   let longPasswords = [];
+  passwords.forEach((password) => {
+    password.length >= 9 ? longPasswords.push(password) : null; 
+  })
 
-  for (let i = 0; i < passwords.length; i++) {
-    const password = passwords[i];
-    if (password.length >= 9) {
-      longPasswords.push(password);
-    }
-  }
   return longPasswords;
 }

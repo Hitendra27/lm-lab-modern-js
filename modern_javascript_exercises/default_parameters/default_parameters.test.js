@@ -7,3 +7,7 @@ test("returns a greeting and the default name if no name is provided", () => {
 test("returns a greeting and a name", () => {
   expect(sayHello("Laura")).toBe("Hello, Laura!");
 });
+
+test("returns a greeting and a name", () => {
+  expect(sayHello("Imane")).toBe("Hello, Imane!");
+});
