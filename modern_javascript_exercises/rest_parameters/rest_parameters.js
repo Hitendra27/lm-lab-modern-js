@@ -7,6 +7,6 @@ export function add(...theArgs) {
   return total;
 }
 
-//add(1, 2, 3, 4, 5);
+//console.log(add(1, 2, 3, 4, 5));
 
-// module.exports = add;
+module.exports = add;
